@@ -1,0 +1,36 @@
+body {
+  font-family: 'Vollkorn', serif;
+  color: #333333;
+  background-color: #87c2ff; }
+
+header,
+main {
+  padding: 0 20px; }
+
+/*** wrapper div for both header and main ***/
+.wrapper {
+  margin-top: 10%; }
+
+/*** logo ***/
+.logo-container {
+  text-align: center; }
+
+.logo {
+  width: 128px;
+  height: 185px;
+  display: inline-block;
+  background-size: cover; }
+
+/*** media queries ***/
+/* X-Small devices (phones, 480px and up) */
+@media (min-width: 480px) {
+  /* wrapper stays 480px wide past 480px wide and is kept centered */
+  .wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto; } }
+/* All other devices (768px and up) */
+@media (min-width: 768px) {
+  /* past 768px the layout is changed and the wrapper has a fixed width of 680px
+  to accomodate both the header column and the content column */
+  .wrapper {
+    width: 680px; } }
